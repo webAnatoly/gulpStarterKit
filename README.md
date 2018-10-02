@@ -1,6 +1,6 @@
 ## Starter kit for building pages with html/scss
 
-### GET STARTING
+### INSTALL
 Почему-то npm install из packag.json падает на установке gulp-sass (permission denied), но если отдельно устанавливать gulp-sass командой npm install gulp-sass --save-dev то все норм.
 
 Второй вариант установки с флагом --unsafe-perm
