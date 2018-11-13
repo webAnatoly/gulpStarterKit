@@ -3,11 +3,7 @@
 
 
 ### INSTALL
-Почему-то **npm install** из packag.json падает на установке gulp-sass (permission denied), но если отдельно запустить **npm install gulp-sass --save-dev** то все норм.
-
-Второй вариант установки с флагом --unsafe-perm
-
-**npm install --unsafe-perm**
+**npm install**
 
 После успешной установки запустить **gulp dev** и можно творить :)
 
