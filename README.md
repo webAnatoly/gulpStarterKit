@@ -1,9 +1,12 @@
 ## Starter kit for building pages with html/scss
-Базовый набор для начала верстки с препроцессором sass, postCSS, cssnano и livereload. 
+Базовый набор для начала верстки с препроцессором sass, postCSS, cssnano и livereload.  
+Шаблон включает в себя сетку из bootstrap.  
+При желании можно сетку кастомизировать. Она лежит со всеми переменными и миксинами в папке 'vendors/bootstrap-grid/'  
+Если сетка не нужна, то можно удалить импорт из файла main.scss "@import 'vendors/bootstrap-grid/bootstrap-grid';"  
 
 
 ### INSTALL
-**npm install**
+**npm install** 
 
 После успешной установки запустить **gulp dev** и можно творить :)
 
