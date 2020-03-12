@@ -18,10 +18,10 @@ const isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'developm
 gulp.task('styles', () => {
   let plugins;
   if (isDevelopment) {
-    plugins = [autoprefixer({ browsers: ['last 5 version'] })];
+    plugins = [autoprefixer({ overrideBrowserslist: ['last 5 version'] })];
   } else {
     plugins = [
-      autoprefixer({ browsers: ['last 5 version'] }),
+      autoprefixer({ overrideBrowserslist: ['last 5 version'] }),
       cssnano,
     ];
   }
